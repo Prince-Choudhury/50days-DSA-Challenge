@@ -25,8 +25,8 @@ int getMaxSubarrayProduct(int arr[], int n){
 
 int main(){
 
-    int arr[] = {-3,-1,-1};
-    cout<<"Maximum subarray product is : "<<getMaxSubarrayProduct(arr, 3);
+    int arr[] = {2,3,-2,4};
+    cout<<"Maximum subarray product is : "<<getMaxSubarrayProduct(arr, 4);
 
     return 0;
 }
